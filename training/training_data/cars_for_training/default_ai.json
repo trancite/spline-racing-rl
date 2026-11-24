@@ -1,0 +1,19 @@
+{
+    "cars": 
+    [
+        {
+            "id": "Simple AI",
+            "start_position": {"x": 10.0, "y": 10.0},
+            "width": 5,
+            "height": 1.8,
+            "color": "orange",
+            "max_speed": 300.0,
+            "is_player": false,
+            "acceleration": 0.5,
+            "turn_speed": 2.0,
+            "grip": 1,
+            "is_AI": true,
+            "controls":"ARROWS"
+        }
+    ]
+}

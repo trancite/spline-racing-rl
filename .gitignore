@@ -1,0 +1,46 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local configuration and credentials
+.vscode/
+.idea/
+.agents/
+.codex/
+.aws/
+.env
+.env.*
+!.env.example
+
+# Operating-system files and temporary output
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
+
+# Local game data, generated while playing or using the editor
+/data/records/leaderboard.json
+/data/custom_circuits/
+
+# Training experiments: retain only the distributed checkpoint and metadata
+/training/models/*
+!/training/models/ppo_all_circuits_default_ai_interrupted.zip
+!/training/models/ppo_all_circuits_default_ai_interrupted.json
+/training/done_models/
+/runs/
+/logs/
+/tensorboard/

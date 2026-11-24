@@ -1,0 +1,19 @@
+{
+    "cars": 
+    [
+        {
+            "id": "Vicens Soler",
+            "start_position": {"x": 10.0, "y": 10.0},
+            "width": 5,
+            "height": 1.8,
+            "color": "black",
+            "max_speed": 300.0,
+            "is_player": true,
+            "acceleration": 0.5,
+            "turn_speed": 2.0,
+            "grip": 0.95,
+            "is_AI": false,
+            "controls":"ARROWS"
+        }
+    ]
+}

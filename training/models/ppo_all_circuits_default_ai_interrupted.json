@@ -1,0 +1,31 @@
+{
+  "model_name": "ppo_all_circuits_default_ai",
+  "created_at": "2026-01-18T23:16:19.898350",
+  "n_stack": 4,
+  "n_actions": 3,
+  "n_observations": 13,
+  "observation_method": "get_observations",
+  "car_name": "default_ai",
+  "circuit_names": [
+    "sand_clock_03",
+    "straight_line_01",
+    "nascar_02",
+    "dinosaur_04",
+    "hard_random_circuit",
+    "infinity",
+    "ovalo"
+  ],
+  "n_envs": 10,
+  "total_timesteps": 8000000,
+  "learning_rate": 0.0003,
+  "n_steps": 2048,
+  "batch_size": 128,
+  "ent_coef": 0.1,
+  "gamma": 0.999,
+  "circuit_success_stats": {},
+  "road_friction": 0.95,
+  "off_road_friction": 0.2,
+  "road_grip": 0.95,
+  "off_road_grip": 0.7,
+  "notes": ""
+}
